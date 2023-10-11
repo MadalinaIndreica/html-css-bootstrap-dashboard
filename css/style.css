@@ -8,13 +8,21 @@ img {
     background-color: blueviolet;
 }
 /* HEADER */
-header{
+.ms-navbar{
     height: 75px;
-    /* debug */
-    background-color: blue;
+    background-color:white;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding:.5rem;
 }
+
+.mobile-logo-img {
+    width: 60px;
+}
+
 @media screen and (min-width:768px) {
-    header{
+    .ms-navbar{
         height:65px;
     }
     
@@ -52,6 +60,7 @@ main{
     /* debug */
     border: 1px dotted white;
 }
+
 @media screen and (min-width: 992px){
     .rows-wrapper{
         display: flex;
@@ -60,7 +69,7 @@ main{
     }
     .row {
         margin:0 auto;
-        
+
     }
 
 }
