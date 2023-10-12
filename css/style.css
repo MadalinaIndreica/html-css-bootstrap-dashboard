@@ -65,11 +65,11 @@ main{
 }
 
 @media screen and (min-width: 992px){
-    .rows-wrapper{
+    /* .rows-wrapper{
         display: flex;
         justify-content: space-between;
         
-    }
+    } */
     .row {
         margin:0 auto;
 
